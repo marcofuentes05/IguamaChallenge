@@ -1,0 +1,25 @@
+.buttomtitle{
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+}
+.body{
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+}
+
+.buttomtitlebody{
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+}
+
+
+.imgbuttom{
+  width: 30vw;
+  height: auto;
+}

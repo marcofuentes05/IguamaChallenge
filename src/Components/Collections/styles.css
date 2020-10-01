@@ -1,0 +1,11 @@
+.collections{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+.imageBack{
+  background-image:url(../../assets/men.jpg);
+  width: auto;
+  height: auto;
+}

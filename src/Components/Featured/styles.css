@@ -1,0 +1,23 @@
+.features{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.carousel{
+  background-color: white;
+}
+
+.feature{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.img0{
+  width: 10vw;
+  height: auto;
+}
