@@ -2,5 +2,35 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  font-family: Lato;
+  border-bottom: 1px solid grey;
+}
+
+.contentBox{
+  display: flex;
+  flex-direction: column; 
+  align-items: flex-start;
+  justify-content: baseline;
+}
+
+.title{
+  font-size: 20px;
+  text-align: start;
+}
+
+.grey{
+  color:grey;
+  font-weight: lighter;
+  text-align: start;
+}
+
+.wrapper{
+  display: flex;
+  flex-direction: row; 
+  align-items: flex-start;
+}
+
+.img{
+  margin: 15px;
 }

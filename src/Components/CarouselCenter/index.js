@@ -8,13 +8,13 @@ const carEl = (img) => (
   <div className="carouselElement">
     <img src={img} alt="Nada nuevo" className="image" />
     <div className="insideCarouselElement">
-      <h1 className="overwH1">
-        Finding your perfect shoes
+      <h1 className="text">
+        Finding Your Perfect Shoes
       </h1>
-      <h2>
+      <h2 className="subtext">
         Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
       </h2>
-      <button className="showNowButton">
+      <button className="shopNowButton">
         SHOP NOW
       </button>
     </div>

@@ -1,7 +1,7 @@
 .features{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
 
@@ -12,12 +12,25 @@
 .feature{
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   background-color: white;
+  padding: 10px;
 }
 
 .img0{
-  width: 10vw;
-  height: auto;
+  height: 200px;
+  width: auto;
+}
+
+.carouselContainer{
+  padding: 10px;
+  font-family: Lato ;
+}
+
+.title{
+  font-size: 300%;
+  text-align: center;
+}
+
+.purple{
+  color: #2d2d84;
 }

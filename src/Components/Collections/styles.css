@@ -1,8 +1,13 @@
 .collections{
+  margin-top: 15px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   margin-bottom: 30px;
+  width: 20vw;
+  height: fit-content;
+  font-family: Lato;
+  width: 100%;
 }
 .imageBack{
   background-image:url(../../assets/men.jpg);

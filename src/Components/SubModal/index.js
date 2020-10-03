@@ -2,10 +2,10 @@ import React from 'react'
 import './styles.css'
 const modal = () => 
   (<div className="subModal">
-    <div className="subItem">
+    <div className="subItem purple">
       HOME
     </div>
-    <div className="subItem">
+    <div className="subItem purple">
       ABOUT
     </div>
     <div className="subItem">

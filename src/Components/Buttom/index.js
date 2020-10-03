@@ -8,18 +8,20 @@ const buttom = () => (
       Big Sale!
     </h1>
     <div className="body">
-      <img src={blog_1} className="imgbuttom"/>
+      <img src={blog_1} className="imgbuttom" width="50vw" alt="No resource" />
       <div className="buttomtitlebody">
-        <h2>
+        <h2 className="purple" >
           50% less in all items!
         </h2>
         <h3>
-          By Juan Carlos - SEptember 2020
+          By<h3 className="purple">Juan Carlos</h3> - September 2020
         </h3>
         <h3>
-          Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum 
+          Lorem Ipsum dolor sit amet, consectetur adipisicing elit. Quisquam iste dolor accusantium facere corporis ipsum animi deleniti fugiat. Ex, veniam?
         </h3>
-
+        <buttom className="shopNowButton" >
+          SHOP NOW
+        </buttom>
       </div>
     </div>
   </div>

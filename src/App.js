@@ -7,6 +7,7 @@ import BelowCarousel from './Components/BelowCarousel'
 import Collections from './Components/Collections'
 import Featured from './Components/Featured'
 import Buttom from './Components/Buttom'
+import End from './Components/End'
 
 function App() {
   return (
@@ -18,10 +19,7 @@ function App() {
       <Collections/>
       <Featured />
       <Buttom />
-      <h1/>
-      <h1 />
-      <h1 />
-      <h1 />
+      <End />
     </div>
   );
 }
